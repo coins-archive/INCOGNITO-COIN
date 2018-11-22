@@ -1,0 +1,26 @@
+[Unit]
+Description=INCOGNITO's distributed currency daemon
+After=network.target
+
+[Service]
+User=incognito
+Group=incognito
+
+Type=forking
+PIDFile=/var/lib/incognitod/incognitod.pid
+
+ExecStart=/usr/bin/incognitod -daemon -pid=/var/lib/incognitod/incognitod.pid \
+          -conf=/etc/incognito/incognito.conf -datadir=/var/lib/incognitod
+
+ExecStop=-/usr/bin/incognito-cli -conf=/etc/incognito/incognito.conf \
+         -datadir=/var/lib/incognitod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

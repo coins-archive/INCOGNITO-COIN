@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=INCOGNITO
+Comment=INCOGNITO P2P Cryptocurrency
+Comment[fr]=INCOGNITO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=INCOGNITO, eşten eşe kriptografik sanal para birimi
+Exec=incognito-qt %u
+Terminal=false
+Type=Application
+Icon=incognito128
+MimeType=x-scheme-handler/incognito;
+Categories=Office;Finance;

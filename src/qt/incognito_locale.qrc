@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/incognito_bg.qm</file>
+        <file alias="de">locale/incognito_de.qm</file>
+        <file alias="en">locale/incognito_en.qm</file>
+        <file alias="es">locale/incognito_es.qm</file>
+        <file alias="fi">locale/incognito_fi.qm</file>
+        <file alias="fr">locale/incognito_fr.qm</file>
+        <file alias="it">locale/incognito_it.qm</file>
+        <file alias="ja">locale/incognito_ja.qm</file>
+        <file alias="pl">locale/incognito_pl.qm</file>
+        <file alias="pt">locale/incognito_pt.qm</file>
+        <file alias="ru">locale/incognito_ru.qm</file>
+        <file alias="sk">locale/incognito_sk.qm</file>
+        <file alias="sv">locale/incognito_sv.qm</file>
+        <file alias="vi">locale/incognito_vi.qm</file>
+        <file alias="zh_CN">locale/incognito_zh_CN.qm</file>
+        <file alias="zh_TW">locale/incognito_zh_TW.qm</file>
+    </qresource>
+</RCC>

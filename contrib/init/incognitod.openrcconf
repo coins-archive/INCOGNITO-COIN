@@ -1,0 +1,26 @@
+# /etc/conf.d/incognitod: config file for /etc/init.d/incognitod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/incognito/incognito.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/incognitod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/incognitod.pid"
+
+# Where to write incognitod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/incognitod"
+
+# User and group to own incognitod process
+#BITCOIND_USER="incognito"
+#BITCOIND_GROUP="incognito"
+
+# Path to incognitod executable
+#BITCOIND_BIN="/usr/bin/incognitod"
+
+# Nice value to run incognitod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
