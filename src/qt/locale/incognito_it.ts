@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>&amp;About INCOGNITO Core</source>
-        <translation>&amp;Su INCOGNITO Core</translation>
+        <source>&amp;About Incognito Core</source>
+        <translation>&amp;Su Incognito Core</translation>
     </message>
     <message>
-        <source>Show information about INCOGNITO Core</source>
-        <translation>Mostra la informazione su INCOGNITO Core</translation>
+        <source>Show information about Incognito Core</source>
+        <translation>Mostra la informazione su Incognito Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -443,16 +443,16 @@
         <translation>Opzioni riga di &amp;comando</translation>
     </message>
     <message>
-        <source>INCOGNITO Core client</source>
-        <translation>Cliente INCOGNITO Core</translation>
+        <source>Incognito Core client</source>
+        <translation>Cliente Incognito Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>Processato %n blocco della cronologia transazioni.</numerusform><numerusform>Processati %n blocchi della cronologia transazioni.</numerusform></translation>
     </message>
     <message>
-        <source>Show the INCOGNITO Core help message to get a list with possible INCOGNITO command-line options</source>
-        <translation>Mostra il messaggio di aiuto di INCOGNITO Core per ottenere una lista con le possibili opzioni di linea di comando di INCOGNITO</translation>
+        <source>Show the Incognito Core help message to get a list with possible INCOGNITO command-line options</source>
+        <translation>Mostra il messaggio di aiuto di Incognito Core per ottenere una lista con le possibili opzioni di linea di comando di INCOGNITO</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -958,16 +958,16 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versione</translation>
     </message>
     <message>
-        <source>About INCOGNITO Core</source>
-        <translation>Su INCOGNITO Core</translation>
+        <source>About Incognito Core</source>
+        <translation>Su Incognito Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1013,16 +1013,16 @@ Indirizzo: %4
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to INCOGNITO Core.</source>
-        <translation>Benvenuto in INCOGNITO Core</translation>
+        <source>Welcome to Incognito Core.</source>
+        <translation>Benvenuto in Incognito Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where INCOGNITO Core will store its data.</source>
-        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove INCOGNITO Core memorizzerà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Incognito Core will store its data.</source>
+        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Incognito Core memorizzerà i propri dati.</translation>
     </message>
     <message>
-        <source>INCOGNITO Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>INCOGNITO Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
+        <source>Incognito Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Incognito Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1033,8 +1033,8 @@ Indirizzo: %4
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1088,7 +1088,7 @@ Indirizzo: %4
     </message>
     <message>
         <source>Automatically start INCOGNITO after logging in to the system.</source>
-        <translation>Esegui automaticamente INCOGNITO Core all'avvio del sistema.</translation>
+        <translation>Esegui automaticamente Incognito Core all'avvio del sistema.</translation>
     </message>
     <message>
         <source>&amp;Start INCOGNITO on system login</source>
@@ -2428,8 +2428,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>INCOGNITO Core is shutting down...</source>
-        <translation>INCOGNITO Core si sta chiudendo...</translation>
+        <source>Incognito Core is shutting down...</source>
+        <translation>Incognito Core si sta chiudendo...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2578,8 +2578,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2590,8 +2590,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>
-        <source>The INCOGNITO Core developers</source>
-        <translation>Gli sviluppatori di INCOGNITO Core</translation>
+        <source>The Incognito Core developers</source>
+        <translation>Gli sviluppatori di Incognito Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3164,8 +3164,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already running.</source>
-        <translation>Impossibile ottenere un blocco sulla data directory %s. INCOGNITO Core è probabilmente già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Incognito Core is probably already running.</source>
+        <translation>Impossibile ottenere un blocco sulla data directory %s. Incognito Core è probabilmente già in esecuzione.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3220,8 +3220,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. INCOGNITO Core is probably already running.</source>
-        <translation>Incapace di legare al %s su questo computer. INCOGNITO Core è probabilmente già funzionato.</translation>
+        <source>Unable to bind to %s on this computer. Incognito Core is probably already running.</source>
+        <translation>Incapace di legare al %s su questo computer. Incognito Core è probabilmente già funzionato.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3468,8 +3468,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di connessione al Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of INCOGNITO Core</source>
-        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di INCOGNITO Core piú recente.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Incognito Core</source>
+        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Incognito Core piú recente.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3508,8 +3508,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. INCOGNITO Core is shutting down.</source>
-        <translation>Controllo di inizializzazione sanity fallito. INCOGNITO Core verrà chiuso.</translation>
+        <source>Initialization sanity check failed. Incognito Core is shutting down.</source>
+        <translation>Controllo di inizializzazione sanity fallito. Incognito Core verrà chiuso.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

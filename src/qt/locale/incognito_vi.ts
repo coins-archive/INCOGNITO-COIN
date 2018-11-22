@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About INCOGNITO Core</source>
-        <translation>&amp;Về INCOGNITO Core</translation>
+        <source>&amp;About Incognito Core</source>
+        <translation>&amp;Về Incognito Core</translation>
     </message>
     <message>
-        <source>Show information about INCOGNITO Core</source>
-        <translation>Hiển thị thông tin về INCOGNITO Core</translation>
+        <source>Show information about Incognito Core</source>
+        <translation>Hiển thị thông tin về Incognito Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>INCOGNITO Core client</source>
-        <translation>Phần mềm INCOGNITO Core</translation>
+        <source>Incognito Core client</source>
+        <translation>Phần mềm Incognito Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
-        <source>Show the INCOGNITO Core help message to get a list with possible INCOGNITO command-line options</source>
-        <translation>Hiển thị hướng dẫn của INCOGNITO Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của INCOGNITO.</translation>
+        <source>Show the Incognito Core help message to get a list with possible INCOGNITO command-line options</source>
+        <translation>Hiển thị hướng dẫn của Incognito Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của INCOGNITO.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -989,8 +989,8 @@ Kiểu: %3
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Kiểu: %3
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About INCOGNITO Core</source>
-        <translation>Về INCOGNITO Core</translation>
+        <source>About Incognito Core</source>
+        <translation>Về Incognito Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Kiểu: %3
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to INCOGNITO Core.</source>
-        <translation>Chào mừng đến với INCOGNITO Core.</translation>
+        <source>Welcome to Incognito Core.</source>
+        <translation>Chào mừng đến với Incognito Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where INCOGNITO Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà INCOGNITO Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Incognito Core will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Incognito Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>INCOGNITO Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>INCOGNITO Core sẽ tải và lưu một bản của sổ cái INCOGNITO. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Incognito Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Incognito Core sẽ tải và lưu một bản của sổ cái INCOGNITO. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Kiểu: %3
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>INCOGNITO Core is shutting down...</source>
-        <translation>INCOGNITO Core đang được tắt...</translation>
+        <source>Incognito Core is shutting down...</source>
+        <translation>Incognito Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The INCOGNITO Core developers</source>
-        <translation>Nhóm phát triển INCOGNITO Core</translation>
+        <source>The Incognito Core developers</source>
+        <translation>Nhóm phát triển Incognito Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. INCOGNITO Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Incognito Core is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Incognito Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. INCOGNITO Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. INCOGNITO Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Incognito Core is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Incognito Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3746,8 +3746,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong INCOGNITO Core will not work properly.</source>
-        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì INCOGNITO Core sẽ không làm việc một cách hoàn hảo.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Incognito Core will not work properly.</source>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Incognito Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3758,8 +3758,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Cái điểm ngang hàng trong danh sách trắng không thể bị cấm DoS và các giao dịch của nó luôn được chuyển tiếp, thậm chí cả khi nó đã có trong mempool, hữu ích ví dụ như cho một cửa ngõ</translation>
     </message>
     <message>
-        <source>(19393 could be used only on mainnet)</source>
-        <translation>(19393 chỉ được sử dụng trên mạng chính thức)</translation>
+        <source>(19303 could be used only on mainnet)</source>
+        <translation>(19303 chỉ được sử dụng trên mạng chính thức)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3799,8 +3799,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The INCOGNITO Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển INCOGNITO Core</translation>
+        <source>Copyright (C) 2017-%i The Incognito Core Developers</source>
+        <translation>Bản quyền (C) 2017-%i bởi Nhóm phát triển Incognito Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3831,8 +3831,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of INCOGNITO Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của INCOGNITO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Incognito Core</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Incognito Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3903,8 +3903,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. INCOGNITO Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. INCOGNITO Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Incognito Core is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Incognito Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4155,8 +4155,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart INCOGNITO Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại INCOGNITO Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Incognito Core to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Incognito Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4175,8 +4175,8 @@ ví dụ: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Masternodeprivkey không hợp lệ. Hãy xem lại tài liệu.</translation>
     </message>
     <message>
-        <source>(must be19393 for mainnet)</source>
-        <translation>(phải là19393 cho mạng chính thức)</translation>
+        <source>(must be3300 for mainnet)</source>
+        <translation>(phải là3300 cho mạng chính thức)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

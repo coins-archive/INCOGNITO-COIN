@@ -219,8 +219,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core
+        <source>Incognito Core</source>
+        <translation>Incognito Core
 </translation>
     </message>
     <message>
@@ -272,8 +272,8 @@
         <translation>Avsluta applikationen</translation>
     </message>
     <message>
-        <source>&amp;About INCOGNITO Core</source>
-        <translation>&amp;Om INCOGNITO Core</translation>
+        <source>&amp;About Incognito Core</source>
+        <translation>&amp;Om Incognito Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -412,8 +412,8 @@
         <translation>&amp;Kommandoradalternativ</translation>
     </message>
     <message>
-        <source>Show the INCOGNITO Core help message to get a list with possible INCOGNITO command-line options</source>
-        <translation>Visa INCOGNITO Core-hjälpmeddelandet för att få en lista med möjliga INCOGNITO-kommandoradalternativ</translation>
+        <source>Show the Incognito Core help message to get a list with possible INCOGNITO command-line options</source>
+        <translation>Visa Incognito Core-hjälpmeddelandet för att få en lista med möjliga INCOGNITO-kommandoradalternativ</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -883,8 +883,8 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core
+        <source>Incognito Core</source>
+        <translation>Incognito Core
 </translation>
     </message>
     <message>
@@ -931,16 +931,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to INCOGNITO Core.</source>
-        <translation>Välkommen till INCOGNITO Core.</translation>
+        <source>Welcome to Incognito Core.</source>
+        <translation>Välkommen till Incognito Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where INCOGNITO Core will store its data.</source>
-        <translation>Då detta är första gången programmet startas kan du välja var INCOGNITO Core ska lagra sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Incognito Core will store its data.</source>
+        <translation>Då detta är första gången programmet startas kan du välja var Incognito Core ska lagra sin data.</translation>
     </message>
     <message>
-        <source>INCOGNITO Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>INCOGNITO Core kommer att laddas ned och lagra en kopia av INCOGNITO:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
+        <source>Incognito Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Incognito Core kommer att laddas ned och lagra en kopia av INCOGNITO:s blockkedja. Minst %1 GB data kommer att lagras i denna katalog och den kommer att växa med tiden. Plånboken kommer också att lagras i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1985,8 +1985,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>INCOGNITO Core is shutting down...</source>
-        <translation>INCOGNITO Core stängs ned...</translation>
+        <source>Incognito Core is shutting down...</source>
+        <translation>Incognito Core stängs ned...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,8 +2127,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core
+        <source>Incognito Core</source>
+        <translation>Incognito Core
 </translation>
     </message>
     <message>
@@ -2140,8 +2140,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Bitcoin Core-utvecklarna</translation>
     </message>
     <message>
-        <source>The INCOGNITO Core developers</source>
-        <translation>INCOGNITO Core-utvecklarna</translation>
+        <source>The Incognito Core developers</source>
+        <translation>Incognito Core-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2662,8 +2662,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already running.</source>
-        <translation>Kan inte erhålla ett lås på datakatalog %s. INCOGNITO Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. Incognito Core is probably already running.</source>
+        <translation>Kan inte erhålla ett lås på datakatalog %s. Incognito Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -2718,8 +2718,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Detta är en förhandsutgiven testkompilering - använd på egen risk - använd inte för utvinning eller handlarapplikationer.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. INCOGNITO Core is probably already running.</source>
-        <translation>Det går inte att binda till %s till denna dator. INCOGNITO Core körs förmodligen redan.</translation>
+        <source>Unable to bind to %s on this computer. Incognito Core is probably already running.</source>
+        <translation>Det går inte att binda till %s till denna dator. Incognito Core körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -2942,8 +2942,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. INCOGNITO Core is shutting down.</source>
-        <translation>Initialiseringstillståndkontroll misslyckades. INCOGNITO Core stängs ned.</translation>
+        <source>Initialization sanity check failed. Incognito Core is shutting down.</source>
+        <translation>Initialiseringstillståndkontroll misslyckades. Incognito Core stängs ned.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

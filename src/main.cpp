@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2017-2018 The INCOGNITO developers
+// Copyright (c) 2017 The Incognito developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "INCOGNITO cannot be compiled without assertions."
+#error "Incognito cannot be compiled without assertions."
 #endif
 
 /**
@@ -70,7 +70,7 @@ unsigned int nCoinCacheSize = 5000;
 bool fAlerts = DEFAULT_ALERTS;
 
 unsigned int nStakeMinAge = 60 * 60;
-int64_t nReserveBalance = 0;
+int64_t nReserveBalance = 1000;
 
 /** Fees smaller than this (in duffs) are considered zero fee (for relaying and mining)
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
@@ -96,7 +96,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "INCOGNITO Signed Message:\n";
+const string strMessageMagic = "Incognito Signed Message:\n";
 
 // Internal stuff
 namespace
@@ -1598,7 +1598,6 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
     return true;
 }
 
-
 double ConvertBitsToDouble(unsigned int nBits)
 {
     int nShift = (nBits >> 24) & 0xff;
@@ -1621,11 +1620,6 @@ double ConvertBitsToDouble(unsigned int nBits)
 int64_t GetBlockValue(int nHeight)
 {
  
-    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
-        if (nHeight < 200 && nHeight > 0)
-            return 250000 * COIN;
-    }
-	
 	if (nHeight == 0) return 3000000 * COIN;
 		
 	int64_t nSubsidy;
@@ -1641,85 +1635,46 @@ int64_t GetBlockValue(int nHeight)
 	} else if (nHeight > 40000 && nHeight <= 50000) {
 		nSubsidy = 20 * COIN;
 	} else if (nHeight > 50000 && nHeight <= 150000) {
-		nSubsidy = 10 * COIN;
-	} else if (nHeight > 150000 && nHeight <= 300000) {
-		nSubsidy = 5 * COIN;
-	} else if (nHeight > 300000 && nHeight <= 500000) { // 500000 => LAST POW BLOCK
-		nSubsidy = 2.5 * COIN;
-	} else if (nHeight > 500000 && nHeight <= 600000) { // 600001 => FIRST POS BLOCK
-		nSubsidy = 10 * COIN;
-	} else if (nHeight > 600000 && nHeight <= 700000) {
-		nSubsidy = 5 * COIN;
-	} else if (nHeight > 700000 && nHeight <= 800000) {
-		nSubsidy = 2.5 * COIN;
-	} else if (nHeight > 800000) {
-		nSubsidy = 1.25 * COIN;
-	}
-	
+        nSubsidy = 10 * COIN;
+	} else if (nHeight > 150000 && nHeight <= 168300) {
+        nSubsidy = 5 * COIN;
+	} else if (nHeight > 168300 && nHeight <= 200000) {
+        nSubsidy = 300 * COIN;
+	} else if (nHeight > 200000 && nHeight <= 250000) {
+        nSubsidy = 200 * COIN;
+	} else if (nHeight > 250000 && nHeight <= 300000) { // 250250 => LAST POW BLOCK
+        nSubsidy = 100 * COIN;
+	} else if (nHeight > 300000 && nHeight <= 350000) {
+        nSubsidy = 60 * COIN;
+    } else if (nHeight > 350000) {
+        nSubsidy = 40 * COIN;
+    } else {
+        nSubsidy = 40 * COIN;
+    }
     return nSubsidy;
-
 }
 
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
 {
 
-
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         if (nHeight < 200)
             return 0;
     }
-	
+
 	int64_t ret = 0;
 	
 	if(nHeight <= 10000 && nHeight > 0) {
         ret = blockValue / 100 * 99;
-	} else if (nHeight > 10000 && nHeight <= 20000) {
+	} else if (nHeight > 10000 && nHeight <= 40000) {
         ret = blockValue / 100 * 99;
-	} else if (nHeight > 20000 && nHeight <= 30000) {
-        ret = blockValue / 100 * 99;
-	} else if (nHeight > 30000 && nHeight <= 40000) {
-        ret = blockValue / 100 * 99;
-	} else if (nHeight > 40000 && nHeight <= 50000) {
+	} else if (nHeight > 40000 && nHeight <= 200000) {
         ret = blockValue / 100 * 80;
-	} else if (nHeight > 50000 && nHeight <= 150000) {
-        ret = blockValue / 100 * 80;
-	} else if (nHeight > 150000 && nHeight <= 300000) {
-        ret = blockValue / 100 * 80;
-	} else if (nHeight > 300000 && nHeight <= 500000) {
-        ret = blockValue / 100 * 80;
-	} else if (nHeight > 500000) {
-		
-		int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-		
-		if(nMasternodeCount < 1) {
-			nMasternodeCount = mnodeman.stable_size();
-		}
-		
-		int64_t mNodeCoins = nMasternodeCount * 10000 * COIN;
-		
-		if (mNodeCoins == 0) {
-            ret = 0;
-		} else {
-			double lockedCoinValue = mNodeCoins / nMoneySupply;
-			
-			
-			double masternodeMultiplier = 1 - lockedCoinValue;
-			
-			if(masternodeMultiplier < .1) {
-				masternodeMultiplier = .1;
-			} else if(masternodeMultiplier > .9) {
-				masternodeMultiplier = .9;
-			}
-			
-			LogPrintf("[LIBRA] Adjusting Libra at height %d with %d masternodes (%d % locked INCOGNITO) and %d INCOGNITO supply at %ld\n", nHeight, nMasternodeCount, lockedCoinValue*100, nMoneySupply, GetTime());
-			LogPrintf("[LIBRA] Masternode: %d\n", masternodeMultiplier*100);
-			LogPrintf("[LIBRA] Staker: %d\n", (1 - masternodeMultiplier)*100);
-			
-			ret = blockValue * masternodeMultiplier;
-		}
-		
+	} else if (nHeight > 200000 && nHeight <= 350000) {
+        ret = blockValue / 100 * 60;
+	} else if (nHeight > 350000) {
+        ret = blockValue / 100 * 50;
 	}
-	
 	return ret;
 }
 

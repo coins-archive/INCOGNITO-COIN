@@ -65,13 +65,13 @@ void CActiveMasternode::ManageStatus()
         }
 
         if (Params().NetworkID() == CBaseChainParams::MAIN) {
-            if (service.GetPort() != 19393) {
-                notCapableReason = strprintf("Invalid port: %u - only 19393 is supported on mainnet.", service.GetPort());
+            if (service.GetPort() != 19303) {
+                notCapableReason = strprintf("Invalid port: %u - only 19303 is supported on mainnet.", service.GetPort());
                 LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
                 return;
             }
-        } else if (service.GetPort() == 19393) {
-            notCapableReason = strprintf("Invalid port: %u - 19393 is only supported on mainnet.", service.GetPort());
+        } else if (service.GetPort() == 19303) {
+            notCapableReason = strprintf("Invalid port: %u - 19303 is only supported on mainnet.", service.GetPort());
             LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
             return;
         }
@@ -264,13 +264,13 @@ bool CActiveMasternode::Register(std::string strService, std::string strKeyMaste
 
     CService service = CService(strService);
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
-        if (service.GetPort() != 19393) {
-            errorMessage = strprintf("Invalid port %u for masternode %s - only 19393 is supported on mainnet.", service.GetPort(), strService);
+        if (service.GetPort() != 19303) {
+            errorMessage = strprintf("Invalid port %u for masternode %s - only 19303 is supported on mainnet.", service.GetPort(), strService);
             LogPrintf("CActiveMasternode::Register() - %s\n", errorMessage);
             return false;
         }
-    } else if (service.GetPort() == 19393) {
-        errorMessage = strprintf("Invalid port %u for masternode %s - 19393 is only supported on mainnet.", service.GetPort(), strService);
+    } else if (service.GetPort() == 19303) {
+        errorMessage = strprintf("Invalid port %u for masternode %s - 19303 is only supported on mainnet.", service.GetPort(), strService);
         LogPrintf("CActiveMasternode::Register() - %s\n", errorMessage);
         return false;
     }

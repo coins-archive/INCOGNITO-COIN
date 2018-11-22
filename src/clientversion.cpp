@@ -13,7 +13,7 @@
  * for both incognitod and incognito-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("INCOGNITO Core");
+const std::string CLIENT_NAME("Incognito Core");
 
 /**
  * Client version number

@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with 'make check'.
 
-To run the incognitod tests manually, launch src/test/test_incognito .
+To run the digiwaged tests manually, launch src/test/test_digiwage .
 
-To add more incognitod tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more digiwaged tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the test/ directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the incognito-qt tests manually, launch src/qt/test/incognito-qt_test
+To run the digiwage-qt tests manually, launch src/qt/test/digiwage-qt_test
 
-To add more incognito-qt tests, add them to the `src/qt/test/` directory and
+To add more digiwage-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

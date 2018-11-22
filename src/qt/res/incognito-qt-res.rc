@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "INCOGNITO"
-            VALUE "FileDescription",    "INCOGNITO Core (OSS GUI client for INCOGNITO)"
+            VALUE "CompanyName",        "Incognito"
+            VALUE "FileDescription",    "Incognito Core (OSS GUI client for Incognito)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "incognito-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "incognito-qt.exe"
-            VALUE "ProductName",        "INCOGNITO Core"
+            VALUE "ProductName",        "Incognito Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

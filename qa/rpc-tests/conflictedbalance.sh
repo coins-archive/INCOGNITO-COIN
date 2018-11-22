@@ -38,13 +38,13 @@ D=$(mktemp -d test.XXXXX)
 # other an evil transaction-mutating miner.
 
 D1=${D}/node1
-CreateDataDir $D1 port=11000 rpcport=11001
+CreateDataDir $D1 port=19303 rpcport=19304
 B1ARGS="-datadir=$D1 -debug=mempool"
 $BITCOIND $B1ARGS &
 B1PID=$!
 
 D2=${D}/node2
-CreateDataDir $D2 port=11010 rpcport=11011
+CreateDataDir $D2 port=19303 rpcport=19304
 B2ARGS="-datadir=$D2 -debug=mempool"
 $BITCOIND $B2ARGS &
 B2PID=$!

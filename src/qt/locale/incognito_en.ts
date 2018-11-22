@@ -776,7 +776,7 @@
     <message>
         <location line="-413"/>
         <location line="+853"/>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -801,12 +801,12 @@
     </message>
     <message>
         <location line="+29"/>
-        <source>&amp;About INCOGNITO Core</source>
+        <source>&amp;About Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about INCOGNITO Core</source>
+        <source>Show information about Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the INCOGNITO Core help message to get a list with possible INCOGNITO command-line options</source>
+        <source>Show the Incognito Core help message to get a list with possible INCOGNITO command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,7 +881,7 @@
     </message>
     <message>
         <location line="+147"/>
-        <source>INCOGNITO Core client</source>
+        <source>Incognito Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
@@ -1517,7 +1517,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1528,7 +1528,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About INCOGNITO Core</source>
+        <source>About Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1586,17 +1586,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to INCOGNITO Core.</source>
+        <source>Welcome to Incognito Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where INCOGNITO Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Incognito Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>INCOGNITO Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Incognito Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1611,7 +1611,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4024,7 +4024,7 @@ https://www.transifex.com/incognito-project/incognito-project-translations</sour
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>INCOGNITO Core is shutting down...</source>
+        <source>Incognito Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4219,7 +4219,7 @@ https://www.transifex.com/incognito-project/incognito-project-translations</sour
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+37"/>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4239,7 +4239,7 @@ https://www.transifex.com/incognito-project/incognito-project-translations</sour
     </message>
     <message>
         <location line="+1"/>
-        <source>The INCOGNITO Core developers</source>
+        <source>The Incognito Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5033,7 +5033,7 @@ https://www.transifex.com/incognito-project/incognito-project-translations</sour
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Incognito Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5258,7 +5258,7 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. INCOGNITO Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Incognito Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5293,7 +5293,7 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong INCOGNITO Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Incognito Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5333,8 +5333,8 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>(19393 could be used only on mainnet)</source>
-        <translation type="unfinished">(19393 could be used only on mainnet)</translation>
+        <source>(19303 could be used only on mainnet)</source>
+        <translation type="unfinished">(19303 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5348,7 +5348,7 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 19393 for mainnet)</source>
+        <source>(must be 19303 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5485,12 +5485,12 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Dash and PIVX Core Developers</source>
+        <source>Copyright (C) 2017-%i The Dash and PIVX Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2017-%i The INCOGNITO Core Developers</source>
+        <source>Copyright (C) 2015-%i The Incognito Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5580,7 +5580,7 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of INCOGNITO Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Incognito Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5720,7 +5720,7 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. INCOGNITO Core is shutting down.</source>
+        <source>Initialization sanity check failed. Incognito Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6440,7 +6440,7 @@ for example: alertnotify=echo %%s | mail -s &quot;INCOGNITO Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart INCOGNITO Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Incognito Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

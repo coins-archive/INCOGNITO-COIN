@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About INCOGNITO Core</source>
-        <translation>&amp;Acerca do INCOGNITO Core</translation>
+        <source>&amp;About Incognito Core</source>
+        <translation>&amp;Acerca do Incognito Core</translation>
     </message>
     <message>
-        <source>Show information about INCOGNITO Core</source>
-        <translation>Mostra informação acerca do INCOGNITO Core</translation>
+        <source>Show information about Incognito Core</source>
+        <translation>Mostra informação acerca do Incognito Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,16 +451,16 @@
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>INCOGNITO Core client</source>
-        <translation>Cliente INCOGNITO Core</translation>
+        <source>Incognito Core client</source>
+        <translation>Cliente Incognito Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the INCOGNITO Core help message to get a list with possible INCOGNITO command-line options</source>
-        <translation>Mostra a mensagem de ajuda do INCOGNITO Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the Incognito Core help message to get a list with possible INCOGNITO command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Incognito Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About INCOGNITO Core</source>
-        <translation>Acerca do INCOGNITO Core</translation>
+        <source>About Incognito Core</source>
+        <translation>Acerca do Incognito Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to INCOGNITO Core.</source>
-        <translation>Bem-vindo ao INCOGNITO Core.</translation>
+        <source>Welcome to Incognito Core.</source>
+        <translation>Bem-vindo ao Incognito Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where INCOGNITO Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente INCOGNITO Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Incognito Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Incognito Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>INCOGNITO Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente INCOGNITO Core irá descarregar e guardar uma copia da cadeia de blocos INCOGNITO. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>Incognito Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente Incognito Core irá descarregar e guardar uma copia da cadeia de blocos INCOGNITO. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>INCOGNITO Core is shutting down...</source>
-        <translation>O INCOGNITO Core está a desligar...</translation>
+        <source>Incognito Core is shutting down...</source>
+        <translation>O Incognito Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>INCOGNITO Core</source>
-        <translation>INCOGNITO Core</translation>
+        <source>Incognito Core</source>
+        <translation>Incognito Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The INCOGNITO Core developers</source>
-        <translation>Os programadores INCOGNITO Core</translation>
+        <source>The Incognito Core developers</source>
+        <translation>Os programadores Incognito Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3310,8 +3310,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o INCOGNITO Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. Incognito Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Incognito Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,8 +3366,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. INCOGNITO Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o INCOGNITO Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. Incognito Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Incognito Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3650,12 +3650,12 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong INCOGNITO Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o INCOGNITO Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Incognito Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Incognito Core não vai funcionar correctamente.</translation>
     </message>
     <message>
-        <source>(19393 could be used only on mainnet)</source>
-        <translation>(19393 apenas pode ser usado para mainnet)</translation>
+        <source>(19303 could be used only on mainnet)</source>
+        <translation>(19303 apenas pode ser usado para mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The INCOGNITO Core Developers</source>
-        <translation>Copyright (C) 2014-%i INCOGNITO Core Developers</translation>
+        <source>Copyright (C) 2017-%i The Incognito Core Developers</source>
+        <translation>Copyright (C) 2017-%i Incognito Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of INCOGNITO Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do INCOGNITO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Incognito Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Incognito Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. INCOGNITO Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O INCOGNITO Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. Incognito Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O Incognito Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart INCOGNITO Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie INCOGNITO Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart Incognito Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie Incognito Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4064,8 +4064,8 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>masternodeprivkey inválida. Por favor reveja a documentação.</translation>
     </message>
     <message>
-        <source>(must be19393 for mainnet)</source>
-        <translation>(deve ser19393 para mainnet)</translation>
+        <source>(must be3300 for mainnet)</source>
+        <translation>(deve ser3300 para mainnet)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

@@ -30,7 +30,7 @@ static const char UNUSED* incognito_strings[] = {
                                    "notation for IPv6. This option can be specified multiple times (default: "
                                    "bind to all interfaces)"),
     QT_TRANSLATE_NOOP("incognito-core", ""
-                                   "Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already "
+                                   "Cannot obtain a lock on data directory %s. Incognito Core is probably already "
                                    "running."),
     QT_TRANSLATE_NOOP("incognito-core", ""
                                    "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -45,7 +45,7 @@ static const char UNUSED* incognito_strings[] = {
                                    "Delete all wallet transactions and only recover those parts of the "
                                    "blockchain through -rescan on startup"),
     QT_TRANSLATE_NOOP("incognito-core", ""
-                                   "Disable all INCOGNITO specific functionality (Masternodes, Darksend, InstantX, "
+                                   "Disable all Incognito specific functionality (Masternodes, Darksend, InstantX, "
                                    "Budgeting) (0-1, default: %u)"),
     QT_TRANSLATE_NOOP("incognito-core", ""
                                    "Distributed under the MIT software license, see the accompanying file "
@@ -160,9 +160,9 @@ static const char UNUSED* incognito_strings[] = {
                                    "If the file does not exist, create it with owner-readable-only file "
                                    "permissions.\n"
                                    "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                   "for example: alertnotify=echo %%s | mail -s \"INCOGNITO Alert\" admin@foo.com\n"),
+                                   "for example: alertnotify=echo %%s | mail -s \"Incognito Alert\" admin@foo.com\n"),
     QT_TRANSLATE_NOOP("incognito-core", ""
-                                   "Unable to bind to %s on this computer. INCOGNITO Core is probably already running."),
+                                   "Unable to bind to %s on this computer. Incognito Core is probably already running."),
     QT_TRANSLATE_NOOP("incognito-core", ""
                                    "Unable to locate enough Darksend denominated funds for this transaction."),
     QT_TRANSLATE_NOOP("incognito-core", ""
@@ -182,7 +182,7 @@ static const char UNUSED* incognito_strings[] = {
                                    "pay if you send a transaction."),
     QT_TRANSLATE_NOOP("incognito-core", ""
                                    "Warning: Please check that your computer's date and time are correct! If "
-                                   "your clock is wrong INCOGNITO Core will not work properly."),
+                                   "your clock is wrong Incognito Core will not work properly."),
     QT_TRANSLATE_NOOP("incognito-core", ""
                                    "Warning: The network does not appear to fully agree! Some miners appear to "
                                    "be experiencing issues."),
@@ -205,10 +205,10 @@ static const char UNUSED* incognito_strings[] = {
     QT_TRANSLATE_NOOP("incognito-core", ""
                                    "You must specify a masternodeprivkey in the configuration. Please see "
                                    "documentation for help."),
-    QT_TRANSLATE_NOOP("incognito-core", "(19393 could be used only on mainnet)"),
+    QT_TRANSLATE_NOOP("incognito-core", "(19303 could be used only on mainnet)"),
     QT_TRANSLATE_NOOP("incognito-core", "(default: %s)"),
     QT_TRANSLATE_NOOP("incognito-core", "(default: 1)"),
-    QT_TRANSLATE_NOOP("incognito-core", "(must be 19393 for mainnet)"),
+    QT_TRANSLATE_NOOP("incognito-core", "(must be 19303 for mainnet)"),
     QT_TRANSLATE_NOOP("incognito-core", "<category> can be:\n"),
     QT_TRANSLATE_NOOP("incognito-core", "Accept command line and JSON-RPC commands"),
     QT_TRANSLATE_NOOP("incognito-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
@@ -236,7 +236,7 @@ static const char UNUSED* incognito_strings[] = {
     QT_TRANSLATE_NOOP("incognito-core", "Connection options:"),
     QT_TRANSLATE_NOOP("incognito-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
     QT_TRANSLATE_NOOP("incognito-core", "Copyright (C) 2014-%i The Dash and PIVX Core Developers"),
-    QT_TRANSLATE_NOOP("incognito-core", "Copyright (C) 2017-%i The INCOGNITO Core Developers"),
+    QT_TRANSLATE_NOOP("incognito-core", "Copyright (C) 2017-%i The Incognito Core Developers"),
     QT_TRANSLATE_NOOP("incognito-core", "Corrupted block database detected"),
     QT_TRANSLATE_NOOP("incognito-core", "Could not parse -rpcbind value %s as network address"),
     QT_TRANSLATE_NOOP("incognito-core", "Could not parse masternode.conf"),
@@ -254,7 +254,7 @@ static const char UNUSED* incognito_strings[] = {
     QT_TRANSLATE_NOOP("incognito-core", "Error loading block database"),
     QT_TRANSLATE_NOOP("incognito-core", "Error loading wallet.dat"),
     QT_TRANSLATE_NOOP("incognito-core", "Error loading wallet.dat: Wallet corrupted"),
-    QT_TRANSLATE_NOOP("incognito-core", "Error loading wallet.dat: Wallet requires newer version of INCOGNITO Core"),
+    QT_TRANSLATE_NOOP("incognito-core", "Error loading wallet.dat: Wallet requires newer version of Incognito Core"),
     QT_TRANSLATE_NOOP("incognito-core", "Error opening block database"),
     QT_TRANSLATE_NOOP("incognito-core", "Error reading from database, shutting down."),
     QT_TRANSLATE_NOOP("incognito-core", "Error recovering public key."),
@@ -282,7 +282,7 @@ static const char UNUSED* incognito_strings[] = {
     QT_TRANSLATE_NOOP("incognito-core", "Incompatible version."),
     QT_TRANSLATE_NOOP("incognito-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
     QT_TRANSLATE_NOOP("incognito-core", "Information"),
-    QT_TRANSLATE_NOOP("incognito-core", "Initialization sanity check failed. INCOGNITO Core is shutting down."),
+    QT_TRANSLATE_NOOP("incognito-core", "Initialization sanity check failed. Incognito Core is shutting down."),
     QT_TRANSLATE_NOOP("incognito-core", "Input is not valid."),
     QT_TRANSLATE_NOOP("incognito-core", "Insufficient funds."),
     QT_TRANSLATE_NOOP("incognito-core", "Invalid -onion address: '%s'"),
@@ -426,7 +426,7 @@ static const char UNUSED* incognito_strings[] = {
     QT_TRANSLATE_NOOP("incognito-core", "Verifying wallet..."),
     QT_TRANSLATE_NOOP("incognito-core", "Wallet %s resides outside data directory %s"),
     QT_TRANSLATE_NOOP("incognito-core", "Wallet is locked."),
-    QT_TRANSLATE_NOOP("incognito-core", "Wallet needed to be rewritten: restart INCOGNITO Core to complete"),
+    QT_TRANSLATE_NOOP("incognito-core", "Wallet needed to be rewritten: restart Incognito Core to complete"),
     QT_TRANSLATE_NOOP("incognito-core", "Wallet options:"),
     QT_TRANSLATE_NOOP("incognito-core", "Wallet window title"),
     QT_TRANSLATE_NOOP("incognito-core", "Warning"),

@@ -231,7 +231,7 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation>INCOGNITO Ядро</translation>
     </message>
     <message>
@@ -283,12 +283,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About INCOGNITO Core</source>
+        <source>&amp;About Incognito Core</source>
         <translation>&amp;За INCOGNITO ядрото</translation>
     </message>
     <message>
-        <source>Show information about INCOGNITO Core</source>
-        <translation>Покаци информация за INCOGNITO Core</translation>
+        <source>Show information about Incognito Core</source>
+        <translation>Покаци информация за Incognito Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>INCOGNITO Core client</source>
-        <translation>INCOGNITO Core клиент</translation>
+        <source>Incognito Core client</source>
+        <translation>Incognito Core клиент</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,7 +463,7 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the INCOGNITO Core help message to get a list with possible INCOGNITO command-line options</source>
+        <source>Show the Incognito Core help message to get a list with possible INCOGNITO command-line options</source>
         <translation>Покажи съобщението за помощ на INCOGNITO ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
@@ -989,7 +989,7 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation>INCOGNITO ядро</translation>
     </message>
     <message>
@@ -1001,7 +1001,7 @@ Address: %4
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About INCOGNITO Core</source>
+        <source>About Incognito Core</source>
         <translation>За INCOGNITO ядрото</translation>
     </message>
     <message>
@@ -1048,15 +1048,15 @@ Address: %4
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to INCOGNITO Core.</source>
+        <source>Welcome to Incognito Core.</source>
         <translation>Добре дошли в ядрото на INCOGNITO.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where INCOGNITO Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Incognito Core will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде INCOGNITO да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>INCOGNITO Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Incognito Core will download and store a copy of the INCOGNITO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>INCOGNITO ще свали и съхрани копие на INCOGNITO регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ Address: %4
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation>INCOGNITO ядро</translation>
     </message>
     <message>
@@ -2586,7 +2586,7 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>INCOGNITO Core is shutting down...</source>
+        <source>Incognito Core is shutting down...</source>
         <translation>INCOGNITO ядрото се изключва...</translation>
     </message>
     <message>
@@ -2736,7 +2736,7 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>INCOGNITO Core</source>
+        <source>Incognito Core</source>
         <translation>INCOGNITO Ядро</translation>
     </message>
     <message>
@@ -2748,7 +2748,7 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The INCOGNITO Core developers</source>
+        <source>The Incognito Core developers</source>
         <translation>Водещи INCOGNITO разработчици</translation>
     </message>
     <message>
@@ -3326,7 +3326,7 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. INCOGNITO Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Incognito Core is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. INCOGNITO ядрото вече работи.</translation>
     </message>
     <message>
@@ -3382,7 +3382,7 @@ https://www.transifex.com/incognito-crypto/incognito-wallet-translations/</trans
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. INCOGNITO Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Incognito Core is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. INCOGNITO ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -3737,8 +3737,8 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Внимание: -maxtxfee  е с много голяма зададена стойност! Това е транзакционната такса, която ще платите ако направите единична транзакция.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong INCOGNITO Core will not work properly.</source>
-        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, INCOGNITO Core няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Incognito Core will not work properly.</source>
+        <translation>Внимание: Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Incognito Core няма да работи правилно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3749,8 +3749,8 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Whitelisted не могат да бъдат DoS забранени и техните транзакции ще бъдат винаги предадени, дори ако вече са в  mempool, полезно напр. за gateway</translation>
     </message>
     <message>
-        <source>(19393 could be used only on mainnet)</source>
-        <translation>(19393 може да бъде използван в основната мрежа)</translation>
+        <source>(19303 could be used only on mainnet)</source>
+        <translation>(19303 може да бъде използван в основната мрежа)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3791,8 +3791,8 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The INCOGNITO Core Developers</source>
-        <translation>Запазени права (C) 2014-%i INCOGNITO Core разработчиците</translation>
+        <source>Copyright (C) 2017-%i The Incognito Core Developers</source>
+        <translation>Запазени права (C) 2017-%i Incognito Core разработчиците</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3823,8 +3823,8 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Грешка при свързване с Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of INCOGNITO Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на INCOGNITO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Incognito Core</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Incognito Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3895,7 +3895,7 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. INCOGNITO Core is shutting down.</source>
+        <source>Initialization sanity check failed. Incognito Core is shutting down.</source>
         <translation>Инициализационната проверка не успешна. INCOGNITO ядрото се изключва.</translation>
     </message>
     <message>
@@ -4147,7 +4147,7 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Използвай UPnP за определяне на порта за слушане (по подразбиране: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart INCOGNITO Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Incognito Core to complete</source>
         <translation>Портфейлът трябва да бъде презаписан: рестартирайте INCOGNITO за да завършите</translation>
     </message>
     <message>
@@ -4167,8 +4167,8 @@ for example: alertnotify=echo %%s | mail -s "INCOGNITO Alert" admin@foo.com
         <translation>Невалиден частен ключ на Masternode. Моля вижте документацията.</translation>
     </message>
     <message>
-        <source>(must be19393 for mainnet)</source>
-        <translation>(трябва да е19393 за основната мрежа)</translation>
+        <source>(must be3300 for mainnet)</source>
+        <translation>(трябва да е3300 за основната мрежа)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>

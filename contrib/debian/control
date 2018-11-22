@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage:http://bit.incognitos/
-Vcs-Git: git://github.com/Crypto-Developer/INCOGNITO
-Vcs-Browser: http://github.com/Crypto-Developer/INCOGNITO
+Vcs-Git: git://github.com/INCOGNITO/INCOGNITO
+Vcs-Browser: http://github.com/INCOGNITO/INCOGNITO
 
 Package: incognitod
 Architecture: any

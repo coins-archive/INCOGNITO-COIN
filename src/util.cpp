@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2017-2018 The INCOGNITO developers
+// Copyright (c) 2017 The Incognito developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,7 +106,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-//INCOGNITO only features
+//Incognito only features
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
@@ -232,7 +232,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "incognito" is a composite category enabling all INCOGNITO-related debug output
+            // "incognito" is a composite category enabling all Incognito-related debug output
             if (ptrCategory->count(string("incognito"))) {
                 ptrCategory->insert(string("Darksend"));
                 ptrCategory->insert(string("Instantx"));
@@ -418,13 +418,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\INCOGNITO
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\INCOGNITO
-// Mac: ~/Library/Application Support/INCOGNITO
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Incognito
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Incognito
+// Mac: ~/Library/Application Support/Incognito
 // Unix: ~/.incognito
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "INCOGNITO";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Incognito";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -436,7 +436,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "INCOGNITO";
+    return pathRet / "Incognito";
 #else
     // Unix
     return pathRet / ".incognito";

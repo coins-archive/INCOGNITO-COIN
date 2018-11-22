@@ -1,5 +1,5 @@
 ---
-name: "incognito-linux-1.0"
+name: "incognito-linux-2.0"
 enable_cache: true
 suites:
 - "trusty"
@@ -29,7 +29,7 @@ packages:
 - "python"
 reference_datetime: "2015-06-01 00:00:00"
 remotes:
-- "url": "https://github.com/Crypto-Developer/INCOGNITO.git"
+- "url": "https://github.com/Crypto-Developer/incognito.git"
   "dir": "incognito"
 files: []
 script: |

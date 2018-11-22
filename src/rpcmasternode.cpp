@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2017-2018 The INCOGNITO developers
+// Copyright (c) 2017 The Incognito developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -84,7 +84,7 @@ Value Darksend(const Array& params, bool fHelp)
 
     CBitcoinAddress address(params[0].get_str());
     if (!address.IsValid())
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid INCOGNITO address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid Incognito address");
 
     // Amount
     CAmount nAmount = AmountFromValue(params[1]);

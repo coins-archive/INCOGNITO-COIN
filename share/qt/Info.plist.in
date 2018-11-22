@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The INCOGNITO Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash and PIVX Core Developers, 2018-@COPYRIGHT_YEAR@ The Incognito Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>INCOGNITO-Qt</string>
+  <string>Incognito-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.incognito.INCOGNITO-Qt</string>
+  <string>io.incognito.Incognito-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.incognito.INCOGNITOPayment</string>
+      <string>io.incognito.IncognitoPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>incognito</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.incognito.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>INCOGNITO payment request</string>
+      <string>Incognito payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

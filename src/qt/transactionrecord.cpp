@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2017-2018 The INCOGNITO developers
+// Copyright (c) 2017 The Incognito developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -129,14 +129,29 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
 					if(nSubsidy / 100 * 80 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 150000 && nHeight <= 300000) {
-					nSubsidy = 5 * COIN;
+				} else if (nHeight > 150000 && nHeight <= 160000) { // 159990 => LAST POW BLOCK
+					nSubsidy = 10 * COIN;
 					if(nSubsidy / 100 * 80 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
-				} else if (nHeight > 300000 && nHeight <= 500000) { // 500000 => LAST POW BLOCK
+				} else if (nHeight > 160000 && nHeight <= 200000) {
+					nSubsidy = 10 * COIN;
+					if(nSubsidy / 100 * 20 == txout.nValue) {
+						sub.type = TransactionRecord::MNReward;
+					}
+				} else if (nHeight > 200000 && nHeight <= 250000) {
+					nSubsidy = 10 * COIN;
+					if(nSubsidy / 100 * 30 == txout.nValue) {
+						sub.type = TransactionRecord::MNReward;
+					}
+				} else if (nHeight > 250000 && nHeight <= 300000) {
+					nSubsidy = 5 * COIN;
+					if(nSubsidy / 100 * 40 == txout.nValue) {
+						sub.type = TransactionRecord::MNReward;
+					}
+				} else if (nHeight > 300000 && nHeight <= 350000) {
 					nSubsidy = 2.5 * COIN;
-					if(nSubsidy / 100 * 80 == txout.nValue) {
+					if(nSubsidy / 100 * 50 == txout.nValue) {
 						sub.type = TransactionRecord::MNReward;
 					}
 				}

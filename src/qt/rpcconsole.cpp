@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2017-2018 The INCOGNITO developers
+// Copyright (c) 2017 The Incognito developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,6 +31,7 @@
 #include <QScrollBar>
 #include <QThread>
 #include <QTime>
+#include <QStringList>
 
 #if QT_VERSION < 0x050000
 #include <QUrl>
@@ -352,6 +353,18 @@ void RPCConsole::setClientModel(ClientModel* model)
         ui->startupTime->setText(model->formatClientStartupTime());
 
         ui->networkName->setText(QString::fromStdString(Params().NetworkIDString()));
+
+	//Setup autocomplete and attach it
+         QStringList wordList;
+         std::vector<std::string> commandList = tableRPC.listCommands();
+         for (size_t i = 0; i < commandList.size(); ++i)
+         {
+             wordList << commandList[i].c_str();
+         }
+ 
+         autoCompleter = new QCompleter(wordList, this);
+         ui->lineEdit->setCompleter(autoCompleter);
+
     }
 }
 

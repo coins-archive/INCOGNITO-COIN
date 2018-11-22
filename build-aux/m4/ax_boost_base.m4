@@ -19,6 +19,11 @@
 #
 #     AC_SUBST(BOOST_CPPFLAGS) / AC_SUBST(BOOST_LDFLAGS)
 #
+#   And sets:
+#
+#     HAVE_BOOST
+#
+# LICENSE
 #
 #   Copyright (c) 2008 Thomas Porschberg <thomas@randspringer.de>
 #   Copyright (c) 2009 Peter Adolphs

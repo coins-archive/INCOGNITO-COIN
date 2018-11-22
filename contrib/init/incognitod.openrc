@@ -16,7 +16,7 @@ BITCOIND_USER=${BITCOIND_USER:-incognito}
 BITCOIND_GROUP=${BITCOIND_GROUP:-incognito}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/incognitod}
 
-name="INCOGNITO Core Daemon"
+name="Incognito Core Daemon"
 description="INCOGNITO crypto-currency p2p network daemon"
 
 command="/usr/bin/incognitod"

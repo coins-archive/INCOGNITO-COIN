@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2017-2018 The INCOGNITO developers
+// Copyright (c) 2017 The Incognito developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -97,7 +97,7 @@ public:
         pchMessageStart[2] = 0x15;
         pchMessageStart[3] = 0x14;
         vAlertPubKey = ParseHex("0451f80c0cac80cc3de937ca7ddb34ee212be23c58b0ce493f60f27e5b64538da66402ca6394867c379cbbee58a63012dd2762a81980fd2629c8fdca7a734e56a5");
-        nDefaultPort = 19393;
+        nDefaultPort = 19303;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // INCOGNITO starting difficulty is 1 / 2^12  //20
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -107,12 +107,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // INCOGNITO: 1 day
         nTargetSpacing = 1 * 60;  // INCOGNITO: 1 minute
-        nLastPOWBlock = 500000;
+        nLastPOWBlock = 250250;
         nMaturity = 110;
         nMasternodeCountDrift = 20;
 		nMasternodeColleteralLimxDev = 10000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // we use the version 2 for dmd
-        nMaxMoneyOut = 100000000 * COIN;
+        nMaxMoneyOut = 10000000000 * COIN;
 
         const char* pszTimestamp = "start INCOGNITO 05/10/2018 @ 8:00pm (UTC)";
         CMutableTransaction txNew;
@@ -133,7 +133,9 @@ public:
         assert(hashGenesisBlock == uint256("0x000008c3fb0b25bbc4bd835c19074b0ae7730321d53523a667297fa3eb92fdab"));
         assert(genesis.hashMerkleRoot == uint256("0xcbd21ff39e45edcb77f6d1831299990e6da46b18db57f307d016e4d6303b25fc"));
 		
-        vSeeds.clear();
+        // vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("144.202.7.62", "144.202.7.62"));   // Single node address
+        vSeeds.push_back(CDNSSeedData("45.77.226.7", "45.77.226.7"));     // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 102);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 16);
@@ -158,7 +160,7 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "04ec87da619c326038d845cabeb641dbbcecb20a5b0197b5fe389bf06e47effb7fd34cadc4956015e3df4be7295f57932789537ce6b8bf34f8e7476db6ed2b7afb";
-        strDarksendPoolDummyAddress = "icmpqXViWUXNroqVNYRdKjKrFM6PNa1oTM";
+        strDarksendPoolDummyAddress = "iMUKfUAWudEeB5WBQo3ApXKmw8VbXS9FEG";
         nStartMasternodePayments = 1525982400;
     }
 
@@ -184,7 +186,7 @@ public:
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0x54;
         vAlertPubKey = ParseHex("041827d7968befeac3e573fd1487a52bced6466e1402603d2b199f4eba9a1f8ac5361a9b478ebe155dcb23e0286224290b11fcb0de6d1b820ad16f373c12f9ebf1");
-        nDefaultPort = 19392;
+        nDefaultPort = 19302;
         nEnforceBlockUpgradeMajority = 51;
         nRejectBlockOutdatedMajority = 75;
         nToCheckBlockUpgradeMajority = 100;
@@ -270,7 +272,7 @@ public:
         genesis.nNonce = 640296;
 		
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 19391;
+        nDefaultPort = 19301;
         assert(hashGenesisBlock == uint256("0x000008219a7f24c85b149f2d204ef97cdf039e7d2adce54084c91abac0595a5f"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
@@ -301,7 +303,7 @@ public:
     {
         networkID = CBaseChainParams::UNITTEST;
         strNetworkID = "unittest";
-        nDefaultPort = 19392;
+        nDefaultPort = 19302;
         vFixedSeeds.clear(); //! Unit test mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Unit test mode doesn't have any DNS seeds.
 

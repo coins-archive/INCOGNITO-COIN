@@ -1,7 +1,7 @@
-TOR SUPPORT IN INCOGNITO
+TOR SUPPORT IN Incognito
 =======================
 
-It is possible to run INCOGNITO as a Tor hidden service, and connect to such services.
+It is possible to run Incognito as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many
 distributions default to having a SOCKS proxy listening on port 9050, but others
@@ -10,10 +10,10 @@ port. See [Tor Project FAQ:TBBSocksPort](https://www.torproject.org/docs/faq.htm
 for how to properly configure Tor.
 
 
-Run INCOGNITO behind a Tor proxy
+Run Incognito behind a Tor proxy
 ----------------------------------
 
-The first step is running INCOGNITO behind a Tor proxy. This will already make all
+The first step is running Incognito behind a Tor proxy. This will already make all
 outgoing connections be anonymized, but more is possible.
 ```
 -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -38,15 +38,15 @@ outgoing connections be anonymized, but more is possible.
 An example how to start the client if the Tor proxy is running on local host on
 port 9050 and only allows .onion nodes to connect:
 ```
-./incognitod -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=dnetzj6l4cvo2fxy.onion:989
+./digiwaged -onion=127.0.0.1:9050 -onlynet=tor -listen=0 -addnode=dnetzj6l4cvo2fxy.onion:989
 ```
 
 In a typical situation, this suffices to run behind a Tor proxy:
 ```
-./incognitod -proxy=127.0.0.1:9050
+./digiwaged -proxy=127.0.0.1:9050
 ```
 
-Run a INCOGNITO hidden server
+Run a Incognito hidden server
 -------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
@@ -59,7 +59,7 @@ SOCKSPolicy accept 127.0.0.1/8
 Log notice file /var/log/tor/notices.log
 ControlPort 9051
 HiddenServiceDir /var/lib/tor/dnet/
-HiddenServicePort 989 127.0.0.1:19393
+HiddenServicePort 989 127.0.0.1:46003
 HiddenServiceStatistics 0
 ORPort 9001
 LongLivedPorts 989
@@ -69,12 +69,12 @@ NumEntryGuards 8
 ```
 
 The directory can be different of course, but (both) port numbers should be equal to
-your incognitod's P2P listen port (19393 by default).
+your digiwaged's P2P listen port (46003 by default).
 ```
--externalip=X   You can tell incognito about its publicly reachable address using
+-externalip=X   You can tell digiwage about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
                 configuration, you can find your onion address in
-                /var/lib/tor/incognito-service/hostname. Onion addresses are given
+                /var/lib/tor/digiwage-service/hostname. Onion addresses are given
                 preference for your node to advertize itself with, for connections
                 coming from unroutable addresses (such as 127.0.0.1, where the
                 Tor proxy typically runs).
@@ -92,25 +92,25 @@ your incognitod's P2P listen port (19393 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 ```
-./incognitod -proxy=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -listen
+./digiwaged -proxy=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -listen
 ```
 
 (obviously, replace the Onion address with your own). If you don't care too much
 about hiding your node, and want to be reachable on IPv4 as well, additionally
 specify:
 ```
-./incognitod ... -discover
+./digiwaged ... -discover
 ```
 
-and open port 19393 on your firewall (or use -upnp).
+and open port 46003 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 ```
-./incognitod -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
+./digiwaged -onion=127.0.0.1:9050 -externalip=dnetzj6l4cvo2fxy.onion:989 -discover
 ```
 
-List of known INCOGNITO Tor relays
+List of known Incognito Tor relays
 ------------------------------------
 ```
 y5kcscnhpygvvnjn.onion:989

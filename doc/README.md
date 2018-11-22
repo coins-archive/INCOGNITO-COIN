@@ -1,39 +1,39 @@
-INCOGNITO Core
+Incognito Core
 =====================
 
 Setup
 ---------------------
-[INCOGNITO Core]http://bit.incognitos/ is the original INCOGNITO client and it builds the backbone of the network. However, it downloads and stores the entire history of INCOGNITO transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Incognito Core](http://digiwage.org/wallet) is the original Incognito client and it builds the backbone of the network. However, it downloads and stores the entire history of Incognito transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run INCOGNITO on your native platform.
+The following are some helpful notes on how to run Incognito on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- bin/32/incognito-qt (GUI, 32-bit) or bin/32/incognitod (headless, 32-bit)
-- bin/64/incognito-qt (GUI, 64-bit) or bin/64/incognitod (headless, 64-bit)
+- bin/32/digiwage-qt (GUI, 32-bit) or bin/32/digiwaged (headless, 32-bit)
+- bin/64/digiwage-qt (GUI, 64-bit) or bin/64/digiwaged (headless, 64-bit)
 
 ### Windows
 
-Unpack the files into a directory, and then run incognito-qt.exe.
+Unpack the files into a directory, and then run digiwage-qt.exe.
 
 ### OSX
 
-Drag INCOGNITO-Qt to your applications folder, and then run INCOGNITO-Qt.
+Drag Incognito-Qt to your applications folder, and then run Incognito-Qt.
 
 ### Need Help?
 
-* See the documentation at the [INCOGNITO Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
+* See the documentation at the [Incognito Wiki](https://en.bitcoin.it/wiki/Main_Page) ***TODO***
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1604893.0) or on the [INCOGNITO Forum](https://google.forum.com/).
-* Join one of our Slack groups [INCOGNITO Slack Groups](https://google.slack.com/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Incognito Forum](http://forum.digiwage.org/).
+* Join one of our Slack groups [Incognito Slack Groups](https://digiwage.org/slack-logins/).
 
 Building
 ---------------------
-The following are developer notes on how to build INCOGNITO on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Incognito on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build INCOGNITO on your native platf
 
 Development
 ---------------------
-The INCOGNITO repo's [root README](https://github.com/Crypto-Developer/INCOGNITO/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Incognito repo's [root README](https://github.com/digiwage/digiwage/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -55,8 +55,8 @@ The INCOGNITO repo's [root README](https://github.com/Crypto-Developer/INCOGNITO
 
 ### Resources
 
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1604893.0) or the [INCOGNITO](https://google.forum.com/) forum.
-* Join the [INCOGNITO-Dev](https://google.slack.com/) 
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [Incognito](http://forum.digiwage.org/) forum.
+* Join the [Incognito-Dev](https://digiwage-dev.slack.com/) Slack group ([Sign-Up](https://digiwage-dev.herokuapp.com/)).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

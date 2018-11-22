@@ -1,5 +1,5 @@
 ---
-name: "incognito-rpi1.0"
+name: "incognito-rpi2-2.0"
 enable_cache: true
 suites:
 - "trusty"

@@ -5,7 +5,7 @@ LINKCEIL="1gbit"
 #limit outbound Bitcoin protocol traffic to this rate
 LIMIT="160kbit"
 #defines the address space for which you wish to disable rate limiting
-LOCALNET="192.168.0.0/16"
+LOCINCOGNITOET="192.168.0.0/16"
 
 #delete existing rules
 tc qdisc del dev ${IF} root
@@ -32,10 +32,10 @@ tc filter add dev ${IF} parent 1: protocol ip prio 2 handle 2 fw classid 1:11
 #	ret=$?
 #done
 
-#limit outgoing traffic to and from port 19393. but not when dealing with a host on the local network
-#	(defined by $LOCALNET)
+#limit outgoing traffic to and from port 19303. but not when dealing with a host on the local network
+#	(defined by $LOCINCOGNITOET)
 #	--set-mark marks packages matching these criteria with the number "2"
 #	these packages are filtered by the tc filter with "handle 2"
 #	this filter sends the packages into the 1:11 class, and this class is limited to ${LIMIT}
-iptables -t mangle -A OUTPUT -p tcp -m tcp --dport 19393 ! -d ${LOCALNET} -j MARK --set-mark 0x2
-iptables -t mangle -A OUTPUT -p tcp -m tcp --sport 19393 ! -d ${LOCALNET} -j MARK --set-mark 0x2
+iptables -t mangle -A OUTPUT -p tcp -m tcp --dport 19303 ! -d ${LOCINCOGNITOET} -j MARK --set-mark 0x2
+iptables -t mangle -A OUTPUT -p tcp -m tcp --sport 19303 ! -d ${LOCINCOGNITOET} -j MARK --set-mark 0x2

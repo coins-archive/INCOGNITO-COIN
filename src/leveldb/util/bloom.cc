@@ -22,7 +22,7 @@ class BloomFilterPolicy : public FilterPolicy {
  public:
   explicit BloomFilterPolicy(int bits_per_key)
       : bits_per_key_(bits_per_key) {
-    // We intentionally round down to reduce pincognitong cost a little bit
+    // We intentionally round down to reduce probing cost a little bit
     k_ = static_cast<size_t>(bits_per_key * 0.69);  // 0.69 =~ ln(2)
     if (k_ < 1) k_ = 1;
     if (k_ > 30) k_ = 30;
